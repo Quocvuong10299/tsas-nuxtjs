@@ -1,0 +1,50 @@
+.btn{
+    padding: 1rem 2rem;
+    display: inline-block;
+    // font-family: $font_1;
+    // @include transition;
+    &-primary{
+      display: inline-flex;
+      align-items: center;
+      background-color: $color_1;
+      color: white!important;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 135.68%;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      vertical-align: center;
+      border: 1px solid $color_1;
+      &:hover{
+        background-color: white;
+        color: $color_1!important;
+        text-decoration: none;
+        svg{
+          stroke: $color_1!important;
+          fill: $color_1!important;
+        }
+        path{
+          fill: $color_1!important;
+        }
+      }
+    }
+    &-secondary{
+      display: block;
+      color: $color_1;
+      background-color: #fff;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 21px;
+      text-align: center;
+      padding-right: 4rem;
+      padding-left: 4rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      &:hover{
+        background-color: $color_1;
+        color: #fff;
+      }
+    }
+  }

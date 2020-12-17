@@ -1,0 +1,146 @@
+// @font-face {
+//     font-family: 'SVN-Poppins';
+//     src: url('../fonts/SVN-Poppins/SVN-PoppinsThin.woff2') format('woff2'),
+//     url('../fonts/SVN-Poppins/SVN-PoppinsThin.woff') format('woff');
+//     font-weight: 100;
+//     font-style: normal;
+//   }
+  
+//   @font-face {
+//     font-family: 'SVN-Poppins';
+//     src: url('../fonts/SVN-Poppins/SVN-PoppinsExtraBold.woff2') format('woff2'),
+//     url('../fonts/SVN-Poppins/SVN-PoppinsExtraBold.woff') format('woff');
+//     font-weight: 800;
+//     font-style: normal;
+//   }
+  
+//   @font-face {
+//     font-family: 'SVN-Poppins';
+//     src: url('../fonts/SVN-Poppins/SVN-PoppinsBlack.woff2') format('woff2'),
+//     url('../fonts/SVN-Poppins/SVN-PoppinsBlack.woff') format('woff');
+//     font-weight: 900;
+//     font-style: normal;
+//   }
+  
+//   @font-face {
+//     font-family: 'SVN-Poppins';
+//     src: url('../fonts/SVN-Poppins/SVN-PoppinsExtraBoldItalic.woff2') format('woff2'),
+//     url('SVN-PoppinsExtraBoldItalic.woff') format('woff');
+//     font-weight: 800;
+//     font-style: italic;
+//   }
+  
+//   @font-face {
+//     font-family: 'SVN-Poppins';
+//     src: url('../fonts/SVN-Poppins/SVN-PoppinsBlackItalic.woff2') format('woff2'),
+//     url('../fonts/SVN-Poppins/SVN-PoppinsBlackItalic.woff') format('woff');
+//     font-weight: 900;
+//     font-style: italic;
+//   }
+  
+//   @font-face {
+//     font-family: 'SVN-Poppins';
+//     src: url('../fonts/SVN-Poppins/SVN-PoppinsLight.woff2') format('woff2'),
+//     url('../fonts/SVN-Poppins/SVN-PoppinsLight.woff') format('woff');
+//     font-weight: 300;
+//     font-style: normal;
+//   }
+  
+//   @font-face {
+//     font-family: 'SVN-Poppins';
+//     src: url('../fonts/SVN-Poppins/SVN-PoppinsMedium.woff2') format('woff2'),
+//     url('../fonts/SVN-Poppins/SVN-PoppinsMedium.woff') format('woff');
+//     font-weight: 500;
+//     font-style: normal;
+//   }
+  
+//   @font-face {
+//     font-family: 'SVN-Poppins';
+//     src: url('../fonts/SVN-Poppins/SVN-PoppinsExtraLight.woff2') format('woff2'),
+//     url('../fonts/SVN-Poppins/SVN-PoppinsExtraLight.woff') format('woff');
+//     font-weight: 200;
+//     font-style: normal;
+//   }
+  
+//   @font-face {
+//     font-family: 'SVN-Poppins';
+//     src: url('../fonts/SVN-Poppins/SVN-PoppinsBold.woff2') format('woff2'),
+//     url('../fonts/SVN-Poppins/SVN-PoppinsBold.woff') format('woff');
+//     font-weight: bold;
+//     font-style: normal;
+//   }
+  
+//   @font-face {
+//     font-family: 'SVN-Poppins';
+//     src: url('../fonts/SVN-Poppins/SVN-PoppinsLightItalic.woff2') format('woff2'),
+//     url('../fonts/SVN-Poppins/SVN-PoppinsLightItalic.woff') format('woff');
+//     font-weight: 300;
+//     font-style: italic;
+//   }
+  
+//   @font-face {
+//     font-family: 'SVN-Poppins';
+//     src: url('../fonts/SVN-Poppins/SVN-Poppins.woff2') format('woff2'),
+//     url('../fonts/SVN-Poppins/SVN-Poppins.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+//   }
+  
+//   @font-face {
+//     font-family: 'SVN-Poppins';
+//     src: url('../fonts/SVN-Poppins/SVN-PoppinsItalic.woff2') format('woff2'),
+//     url('../fonts/SVN-Poppins/SVN-PoppinsItalic.woff') format('woff');
+//     font-weight: normal;
+//     font-style: italic;
+//   }
+  
+//   @font-face {
+//     font-family: 'SVN-Poppins';
+//     src: url('../fonts/SVN-Poppins/SVN-PoppinsExtraLightItalic.woff2') format('woff2'),
+//     url('../fonts/SVN-Poppins/SVN-PoppinsExtraLightItalic.woff') format('woff');
+//     font-weight: 200;
+//     font-style: italic;
+//   }
+  
+//   @font-face {
+//     font-family: 'SVN-Poppins';
+//     src: url('../fonts/SVN-Poppins/SVN-PoppinsMediumItalic.woff2') format('woff2'),
+//     url('../fonts/SVN-Poppins/SVN-PoppinsMediumItalic.woff') format('woff');
+//     font-weight: 500;
+//     font-style: italic;
+//   }
+  
+//   @font-face {
+//     font-family: 'SVN-Poppins';
+//     src: url('../fonts/SVN-Poppins/SVN-PoppinsThinItalic.woff2') format('woff2'),
+//     url('../fonts/SVN-Poppins/SVN-PoppinsThinItalic.woff') format('woff');
+//     font-weight: 100;
+//     font-style: italic;
+//   }
+  
+//   @font-face {
+//     font-family: 'SVN-Poppins';
+//     src: url('../fonts/SVN-Poppins/SVN-PoppinsSemiBold.woff2') format('woff2'),
+//     url('../fonts/SVN-Poppins/SVN-PoppinsSemiBold.woff') format('woff');
+//     font-weight: 600;
+//     font-style: normal;
+//   }
+  
+//   @font-face {
+//     font-family: 'SVN-Poppins';
+//     src: url('../fonts/SVN-Poppins/SVN-PoppinsBoldItalic.woff2') format('woff2'),
+//     url('../fonts/SVN-Poppins/SVN-PoppinsBoldItalic.woff') format('woff');
+//     font-weight: bold;
+//     font-style: italic;
+//   }
+  
+//   @font-face {
+//     font-family: 'SVN-Poppins';
+//     src: url('../fonts/SVN-Poppins/SVN-PoppinsSemiBoldItalic.woff2') format('woff2'),
+//     url('../fonts/SVN-Poppins/SVN-PoppinsSemiBoldItalic.woff') format('woff');
+//     font-weight: 600;
+//     font-style: italic;
+//   }
+  
+//   $font_1: 'SVN-Poppins', sans-serif;
+//   $font_2: 'Maven Pro', sans-serif;
