@@ -9,6 +9,31 @@ export default {
           path: '/',
           component: resolve(__dirname, 'pages/index.vue'),
         },
+        {
+          name:'gioi-thieu',
+          path: '/',
+          component: resolve(__dirname, 'pages/gioi-thieu.vue'),
+        },
+        {
+          name:'dich-vu',
+          path: '/',
+          component: resolve(__dirname, 'pages/dich-vu.vue'),
+        },
+        {
+          name:'tin-tuc',
+          path: '/',
+          component: resolve(__dirname, 'pages/tin-tuc.vue'),
+        },
+        {
+          name:'doi-tac',
+          path: '/',
+          component: resolve(__dirname, 'pages/doi-tac.vue'),
+        },
+        {
+          name:'lien-he',
+          path: '/',
+          component: resolve(__dirname, 'pages/lien-he.vue'),
+        },
         
       ]
     }
