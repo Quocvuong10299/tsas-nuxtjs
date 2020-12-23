@@ -12,12 +12,35 @@
     "@nuxtjs/axios": "^5.12.2",
     "@nuxtjs/pwa": "^3.0.2",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "eslint": "^7.16.0",
+    "nuxt": "^2.14.6",
+    "prettier": "^2.2.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@nuxtjs/svg": "^0.1.12",
-    "@nuxtjs/vuetify": "^1.11.2"
+    "@nuxtjs/vuetify": "^1.11.2",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "husky": "^4.3.6",
+    "lint-staged": "^10.5.3"
+  },
+  "lint-staged": {
+    "**/*.(vue|js)": [
+      "npm run lint",
+      "npm run format",
+      "git add ."
+    ],
+    "**/*.(json|css|md)": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
