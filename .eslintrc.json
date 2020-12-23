@@ -1,8 +1,29 @@
+// {
+//   "root": true,
+//   "parserOptions": {
+//     "parser": "babel-eslint",
+//     "sourceType": "module"
+//   },
+//   "extends": ["@nuxtjs"]
+// }
 {
-  "root": true,
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "globals": {
+    "process": true
+  },
+  "extends": ["plugin:prettier/recommended", "prettier", "vue", "@nuxtjs"],
   "parserOptions": {
-    "parser": "babel-eslint",
+    "ecmaVersion": 9,
+    "ecmaFeatures": {
+      "jsx": true
+    },
     "sourceType": "module"
   },
-  "extends": ["@nuxtjs"]
+  "plugins": ["eslint-plugin", "prettier"],
+  "rules": {}
 }
