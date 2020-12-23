@@ -1,13 +1,9 @@
-// {
-//   "root": true,
-//   "parserOptions": {
-//     "parser": "babel-eslint",
-//     "sourceType": "module"
-//   },
-//   "extends": ["@nuxtjs"]
-// }
 {
-  "parser": "babel-eslint",
+  "root": true,
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "sourceType": "module"
+  },
   "env": {
     "browser": true,
     "es6": true,
@@ -16,14 +12,9 @@
   "globals": {
     "process": true
   },
-  "extends": ["plugin:prettier/recommended", "prettier", "vue", "@nuxtjs"],
-  "parserOptions": {
-    "ecmaVersion": 9,
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "sourceType": "module"
-  },
+  "extends": ["plugin:nuxt/recommended", "eslint:recommended", "vue"],
   "plugins": ["eslint-plugin", "prettier"],
-  "rules": {}
+  "rules": {
+    "semi": ["error", "always"]
+  }
 }
