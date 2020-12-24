@@ -34,11 +34,11 @@
     "lint-staged": "^10.5.3"
   },
   "lint-staged": {
-    "**/*.(vue|js)": [
+    "*.(vue|js)": [
       "eslint --fix",
       "git add"
     ],
-    "**/*.(json|css|md)": [
+    "*.(css|md|json)": [
       "prettier --write",
       "git add"
     ]

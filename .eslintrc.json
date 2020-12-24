@@ -2,7 +2,8 @@
   "root": true,
   "parserOptions": {
     "parser": "babel-eslint",
-    "sourceType": "module"
+    "sourceType": "module",
+    "ecmaVersion": 2019
   },
   "env": {
     "browser": true,
@@ -12,9 +13,18 @@
   "globals": {
     "process": true
   },
-  "extends": ["plugin:nuxt/recommended", "eslint:recommended", "vue"],
+  "extends": [
+    "plugin:nuxt/recommended",
+    "eslint:recommended",
+    "vue",
+    "prettier",
+    "plugin:vue/recommended"
+  ],
   "plugins": ["eslint-plugin", "prettier"],
   "rules": {
-    "semi": ["error", "always"]
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"],
+    "block-scoped-var": "error",
+    "no-unused-vars": "error"
   }
 }
