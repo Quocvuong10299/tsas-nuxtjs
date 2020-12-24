@@ -1,22 +1,25 @@
 <template>
   <v-app dark>
     <Header />
-    <v-main>
+    <transition name="home">
+      <v-main>
         <nuxt />
-    </v-main>
+      </v-main>
+    </transition>
   </v-app>
 </template>
 
 <script>
-import Header from '~/components/header/index'
+import Header from "~/components/header/index";
 export default {
-  components:{
-    Header
+  transitions: "home",
+  components: {
+    Header,
   },
-  data () {
+  data() {
     return {
-      title: 'Vuetify.js'
-    }
-  }
-}
+      title: "Vuetify.js",
+    };
+  },
+};
 </script>

@@ -1,25 +1,28 @@
 <template>
   <v-app dark>
     <Header />
-    <v-main>
+    <transition name="page">
+      <v-main>
         <nuxt />
-    </v-main>
+      </v-main>
+    </transition>
     <Footer />
   </v-app>
 </template>
-
 <script>
-import Header from '~/components/header/index'
-import Footer from '~/components/footer/index'
+import Header from "~/components/header/index";
+import Footer from "~/components/footer/index";
 export default {
-  components:{
+  transitions: "page",
+  components: {
     Header,
-    Footer
+    Footer,
   },
-  data () {
+  data() {
     return {
-      title: 'Vuetify.js'
-    }
-  }
-}
+      title: "Vuetify.js",
+    };
+  },
+  computed: {},
+};
 </script>
