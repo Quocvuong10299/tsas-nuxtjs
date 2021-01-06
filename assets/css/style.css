@@ -1,3 +1,7 @@
+.font-weight-700 {
+  font-weight: 700;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -14,8 +18,16 @@
   background-color: #222736;
 }
 
+.bg-color_3 {
+  background-color: #f8f8f8;
+}
+
 .text-white {
   color: white !important;
+}
+
+.text-red {
+  color: #a01e21;
 }
 
 .title {
@@ -181,6 +193,14 @@ p {
   padding-bottom: 80px;
 }
 
+.mt-78 {
+  margin-top: 78px;
+}
+
+.ml-135 {
+  margin-left: 135px;
+}
+
 .ml-12 {
   margin-left: 12px;
 }
@@ -229,6 +249,10 @@ p {
   padding-top: 60px;
 }
 
+.pb20 {
+  padding-bottom: 20px;
+}
+
 .pb40 {
   padding-bottom: 40px;
 }
@@ -275,6 +299,14 @@ p {
 
 .mg-auto {
   margin: auto !important;
+}
+
+.mg-0 {
+  margin: 0 !important;
+}
+
+.mt-30 {
+  margin-top: 30px;
 }
 
 .btn {
@@ -666,6 +698,30 @@ a:hover {
   display: flex !important;
 }
 
+.d-block {
+  display: block !important;
+}
+
+.contact-form {
+  border: 1px solid #d9d9d9;
+  outline: none;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contact-textarea {
+  border: 1px solid #d9d9d9;
+  outline: none;
+  width: 100%;
+  height: 190px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+
 @keyframes bounce-out {
   0% {
     transform: scale(1);
@@ -688,6 +744,14 @@ a:hover {
 .w-partner {
   margin-right: 135px !important;
   margin-left: 135px;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .col-20 {
