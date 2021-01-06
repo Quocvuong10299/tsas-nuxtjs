@@ -46,8 +46,8 @@ a {
   justify-content: space-between;
   align-items: center;
   &__menu {
-    ul {
-    }
+    // ul {
+    // }
     li {
       margin-left: 40px;
     }
@@ -238,9 +238,9 @@ a {
   overflow: hidden;
   .product {
     @include transition;
-    &:hover {
-      //transform: scaleX(0.2);
-    }
+    // &:hover {
+    //   //transform: scaleX(0.2);
+    // }
     &:before {
       content: '';
       position: absolute;
@@ -335,7 +335,9 @@ a {
     transform: scale(1);
   }
 }
-
+.d-flex{
+  display: flex!important;
+}
 @keyframes bounce-out {
   0% {
     transform: scale(1);
@@ -353,7 +355,10 @@ a {
 .page-leave-active {
   animation: bounce-out 0.5s;
 }
-
+.w-partner{
+  margin-right: 135px!important;
+  margin-left: 135px;
+}
 // .page-enter-active,
 // .page-leave-active {
 //   transition: opacity 0.5s;
