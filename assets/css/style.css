@@ -804,8 +804,8 @@ a:hover {
 }
 
 .page-enter-active {
-  -webkit-animation: bounce-in 0.8s;
-  animation: bounce-in 0.8s;
+  -webkit-animation: bounce-in 0.5s;
+  animation: bounce-in 0.5s;
 }
 
 .page-leave-active {
