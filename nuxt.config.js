@@ -11,28 +11,28 @@ export default {
         },
         {
           name:"gioi-thieu",
-          path: "/",
-          component: resolve(__dirname, "pages/gioi-thieu.vue"),
+          path: "/gioi-thieu",
+          component: resolve(__dirname, "pages/GioiThieu"),
         },
         {
           name:"dich-vu",
-          path: "/",
-          component: resolve(__dirname, "pages/dich-vu.vue"),
+          path: "/dich-vu",
+          component: resolve(__dirname, "pages/DichVu"),
         },
         {
           name:"tin-tuc",
-          path: "/",
-          component: resolve(__dirname, "pages/tin-tuc.vue"),
+          path: "/tin-tuc",
+          component: resolve(__dirname, "pages/TinTuc"),
         },
         {
           name:"doi-tac",
-          path: "/",
-          component: resolve(__dirname, "pages/doi-tac.vue"),
+          path: "/doi-tac",
+          component: resolve(__dirname, "pages/DoiTac"),
         },
         {
           name:"lien-he",
-          path: "/",
-          component: resolve(__dirname, "pages/lien-he.vue"),
+          path: "/lien-he",
+          component: resolve(__dirname, "pages/LienHe"),
         },
 
       ];
