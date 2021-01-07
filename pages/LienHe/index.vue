@@ -37,7 +37,7 @@
         />
       </div>
     </div>
-    <div class="w-form mb70">
+    <div class="container mb70">
       <h1 class="text-center font-weight-700">
         Để lại lời nhắn
       </h1>
@@ -112,16 +112,11 @@ export default {
   width: 470px;
   height: 177px;
 }
-.w-contact{
-  height: 400px;
-}
+
 .w-submit{
   width: 120px;
   height: 60px;
 }
-.w-form{
-  margin-left: 335px;
-  margin-right: 335px;
-}
+
 
 </style>
