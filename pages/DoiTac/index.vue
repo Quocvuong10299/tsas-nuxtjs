@@ -9,33 +9,47 @@
         </div>
       </div>
     </div>
-    <div class="w-partner mb70">
+    <div class="container mb70">
       <div class="row mb30px">
-        <div class="d-flex col-lg-3 col-md-3 cl-12">
-          <div class="logo-partner logo-partner-1 image-cover position-relative mg-auto" />
+        <div class="d-flex col-lg-3 col-md-3 col-12">
+          <div>
+            <div class="logo-partner logo-partner-1 image-cover position-relative mg-auto" />
+          </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12">
-          <div class="logo-partner logo-partner-2 image-cover position-relative mg-auto" />
+        <div class="d-flex col-lg-3 col-md-3 col-12">
+          <div>
+            <div class="logo-partner logo-partner-2 image-cover position-relative mg-auto" />
+          </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12">
-          <div class="logo-partner logo-partner-3 image-cover position-relative mg-auto" />
+        <div class="d-flex col-lg-3 col-md-3 col-12">
+          <div>
+            <div class="logo-partner logo-partner-3 image-cover position-relative mg-auto" />
+          </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12">
-          <div class="logo-partner logo-partner-4 image-cover position-relative mg-auto" />
+        <div class="d-flex col-lg-3 col-md-3 col-12">
+          <div>
+            <div class="logo-partner logo-partner-4 image-cover position-relative mg-auto" />
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="d-flex col-lg-3 col-md-3 cl-12">
-          <div class="logo-partner logo-partner-5 image-cover position-relative mg-auto" />
+        <div class="d-flex col-lg-3 col-md-3 col-12">
+          <div>
+            <div class="logo-partner logo-partner-5 image-cover position-relative mg-auto" />
+          </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12">
-          <div class="logo-partner logo-partner-6 image-cover position-relative mg-auto" />
+        <div class="d-flex col-lg-3 col-md-3 col-12">
+          <div>
+            <div class="logo-partner logo-partner-6 image-cover position-relative mg-auto" />
+          </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12">
-          <div class="logo-partner logo-partner-7 image-cover position-relative mg-auto" />
+        <div class="d-flex col-lg-3 col-md-3 col-12">
+          <div>
+            <div class="logo-partner logo-partner-7 image-cover position-relative mg-auto" />
+          </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12">
-          <div class="logo-partner logo-partner-8 image-cover position-relative mg-auto" />
+        <div class="d-flex col-lg-3 col-md-3 col-12">
+          <div>
+            <div class="logo-partner logo-partner-8 image-cover position-relative mg-auto" />
+          </div>
         </div>
       </div>
     </div>

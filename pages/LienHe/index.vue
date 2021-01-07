@@ -9,8 +9,8 @@
         </div>
       </div>
     </div>
-    <div class="w-contact d-flex mb70">
-      <div class="col-lg-6 col-md-6 cl-12 bg-color_3">
+    <div class="container d-flex mb70">
+      <div class="col-lg-6 col-md-6 col-12 bg-color_3">
         <h1 class="pb20 text-red ml-135 mt-78">
           <b>Thông tin liên hệ</b>
         </h1>

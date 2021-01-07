@@ -11,13 +11,13 @@
     </div>
     <div class="container mb70">
       <div class="row">
-        <div class="col-lg-6 col-md-6 cl-12">
+        <div class="col-lg-6 col-md-6 col-12">
           <h2 class="max-w570">
             Với sứ mệnh tạo điều kiện thuận lợi cho thế hệ trẻ Việt Nam có cơ hội giao lưu, học
             tập
           </h2>
         </div>
-        <div class="col-lg-6 col-md-6 cl-12">
+        <div class="col-lg-6 col-md-6 col-12">
           <p class="max-w570">
             Với sứ mệnh tạo điều kiện thuận lợi cho thế hệ trẻ Việt Nam có cơ hội giao lưu, học tập,
             nâng cao kỹ năng và phát triển năng lực bản thân trong môi trường quốc tế chuyên nghiệp, T.SAS đã và đang

@@ -9,9 +9,9 @@
         </div>
       </div>
     </div>
-    <div class="w-partner mb70">
+    <div class="container mb70">
       <div class="row mb30px">
-        <div class="d-flex col-lg-3 col-md-3 cl-12 mb50">
+        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
           <div class="mg-auto">
             <div class="w-banner-new news-banner-1 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -27,7 +27,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12 mb50">
+        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
           <div class="mg-auto">
             <div class="w-banner-new news-banner-2 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -43,7 +43,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12 mb50">
+        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
           <div class="mg-auto">
             <div class="w-banner-new news-banner-3 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -59,7 +59,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12 mb50">
+        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
           <div class="mg-auto">
             <div class="w-banner-new news-banner-4 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -75,7 +75,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12 mb50">
+        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
           <div class="mg-auto">
             <div class="w-banner-new news-banner-5 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -91,7 +91,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12 mb50">
+        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
           <div class="mg-auto">
             <div class="w-banner-new news-banner-6 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -107,7 +107,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12 mb50">
+        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
           <div class="mg-auto">
             <div class="w-banner-new news-banner-7 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -123,7 +123,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12 mb50">
+        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
           <div class="mg-auto">
             <div class="w-banner-new news-banner-8 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -139,7 +139,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12 mb50">
+        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
           <div class="mg-auto">
             <div class="w-banner-new news-banner-9 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -155,7 +155,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12 mb50">
+        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
           <div class="mg-auto">
             <div class="w-banner-new news-banner-10 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -171,7 +171,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12 mb50">
+        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
           <div class="mg-auto">
             <div class="w-banner-new news-banner-11 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -187,7 +187,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12 mb50">
+        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
           <div class="mg-auto">
             <div class="w-banner-new news-banner-12 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -203,7 +203,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12 mb50">
+        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
           <div class="mg-auto">
             <div class="w-banner-new news-banner-13 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -219,7 +219,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12 mb50">
+        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
           <div class="mg-auto">
             <div class="w-banner-new news-banner-14 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -235,7 +235,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12 mb50">
+        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
           <div class="mg-auto">
             <div class="w-banner-new news-banner-15 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -251,7 +251,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex col-lg-3 col-md-3 cl-12 mb50">
+        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
           <div class="mg-auto">
             <div class="w-banner-new news-banner-16 image-cover position-relative mb15" />
             <div class="w-banner-new">
