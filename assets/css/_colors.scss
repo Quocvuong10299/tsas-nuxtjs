@@ -2,6 +2,7 @@ $color_1:#A01E21;
 $color_2:#222736;
 $color_3:#F2F2F2;
 $color_4:#F8F8F8;
+$color_5:#989898;
 
 .text-color_3{
   color: $color_3;
@@ -15,10 +16,17 @@ $color_4:#F8F8F8;
 .bg-color_3{
   background-color: $color_4;
 }
+.bg-color_5{
+  background-color: $color_5!important;
+}
+
 .text-white{
   color: white!important;
 }
 .text-red{
   color: #A01E21;
+}
+.text-color_5{
+  color: $color_5!important;
 }
 
