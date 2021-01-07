@@ -762,7 +762,7 @@ a:hover {
   }
 }
 .page-enter-active {
-  animation: bounce-in 0.5s;
+  animation: bounce-in 0.8s;
 }
 
 .page-leave-active {

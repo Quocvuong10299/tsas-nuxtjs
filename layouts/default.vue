@@ -21,8 +21,16 @@ export default {
   data() {
     return {
       title: "Vuetify.js",
+      isFooter: true,
     };
   },
-  computed: {},
+  computed: {
+    // getFooter() {
+    //   if (this.$route.name === "index") {
+    //     return (this.isFooter = false);
+    //   }
+    //   return (this.isFooter = true);
+    // },
+  },
 };
 </script>
