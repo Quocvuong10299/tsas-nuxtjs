@@ -104,19 +104,19 @@ export default {
     },
     computed: {
     icFb(){
-      const icFb = require("assets/images/ic-fb.svg?raw");
+      const icFb = require("~/assets/images/ic-fb.svg");
       return icFb;
     },
       icInta(){
-        const icInta = require("assets/images/ic-inta.svg?raw");
+        const icInta = require("~/assets/images/ic-inta.svg");
         return icInta;
       },
       icTw(){
-        const icTw = require("assets/images/ic-tw.svg?raw");
+        const icTw = require("~/assets/images/ic-tw.svg");
         return icTw;
       },
       icYou(){
-        const icYou = require("assets/images/ic-you.svg?raw");
+        const icYou = require("~/assets/images/ic-you.svg");
         return icYou;
       }
   }

@@ -10,8 +10,8 @@
   </v-app>
 </template>
 <script>
-import Header from "~/components/header/index";
-import Footer from "~/components/footer/index";
+import Header from "@/components/layout/header/index";
+import Footer from "@/components/layout/footer/index";
 export default {
   transitions: "page",
   components: {

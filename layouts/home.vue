@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import Header from "~/components/header/index";
+import Header from "~/components/layout/header/index";
 export default {
   transitions: "home",
   components: {

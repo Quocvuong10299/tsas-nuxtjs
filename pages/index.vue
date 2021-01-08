@@ -85,11 +85,11 @@ export default {
   // layout: "home",
   title: "Trang chu",
   components: {},
-  data() {
+  data () {
     return {};
   },
   computed: {
-    icArrow() {
+    icArrow () {
       const icArrow = require("assets/images/arrow-right.svg?raw");
       return icArrow;
     },
@@ -100,12 +100,15 @@ export default {
 .img1 {
   background-image: url("~assets/images/home_1.jpg");
 }
+
 .img2 {
   background-image: url("~assets/images/home_2.jpg");
 }
+
 .img3 {
   background-image: url("~assets/images/home_3.jpg");
 }
+
 .img4 {
   background-image: url("~assets/images/home_4.jpg");
 }

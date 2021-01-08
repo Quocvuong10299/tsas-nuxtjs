@@ -9,27 +9,36 @@
         </div>
       </div>
     </div>
-    <div class="container mb70">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-12">
+    <v-container class="mb70">
+      <v-row>
+        <v-col
+          lg="6"
+          md="6"
+          cols="12"
+        >
           <h2 class="max-w570">
-            Với sứ mệnh tạo điều kiện thuận lợi cho thế hệ trẻ Việt Nam có cơ hội giao lưu, học
-            tập
+            Với sứ mệnh tạo điều kiện thuận lợi cho thế hệ trẻ Việt Nam có cơ hội giao
+            lưu, học tập
           </h2>
-        </div>
-        <div class="col-lg-6 col-md-6 col-12">
+        </v-col>
+        <v-col
+          lg="6"
+          md="6"
+          cols="12"
+        >
           <p class="max-w570">
-            Với sứ mệnh tạo điều kiện thuận lợi cho thế hệ trẻ Việt Nam có cơ hội giao lưu, học tập,
-            nâng cao kỹ năng và phát triển năng lực bản thân trong môi trường quốc tế chuyên nghiệp, T.SAS đã và đang
-            phấn đấu trở thành một trong những công ty cung cấp các dịch vụ du lịch và tư vấn du học hàng đầu tại Việt
+            Với sứ mệnh tạo điều kiện thuận lợi cho thế hệ trẻ Việt Nam có cơ hội giao
+            lưu, học tập, nâng cao kỹ năng và phát triển năng lực bản thân trong môi
+            trường quốc tế chuyên nghiệp, T.SAS đã và đang phấn đấu trở thành một trong
+            những công ty cung cấp các dịch vụ du lịch và tư vấn du học hàng đầu tại Việt
             Nam.<br>
             <br>
-            Với phương châm hoạt động: "Uy tín, Trách nhiệm, Tận tình, Hiệu quả", T.SAS đã tạo ra nhiều điểm khác biệt
-            trong dịch vụ mà TSAS đang cung cấp.
+            Với phương châm hoạt động: "Uy tín, Trách nhiệm, Tận tình, Hiệu quả", T.SAS đã
+            tạo ra nhiều điểm khác biệt trong dịch vụ mà TSAS đang cung cấp.
           </p>
-        </div>
-      </div>
-    </div>
+        </v-col>
+      </v-row>
+    </v-container>
     <div class="services mb100">
       <div class="products">
         <v-container>
@@ -40,14 +49,15 @@
                 cols="12"
                 class="pa-0 overflow-hidden"
               >
-                <div class="pt100percent image-cover position-relative product img_about1">
+                <div
+                  class="pt100percent image-cover position-relative product img_about1"
+                >
                   <div class="product__content">
                     <h4 class="text-white">
                       01.
                     </h4>
                     <h2 class="max-w405 text-white">
-                      Tư vấn dịch vụ du học,
-                      Định cư, hồ sơ xin visa
+                      Tư vấn dịch vụ du học, Định cư, hồ sơ xin visa
                     </h2>
                   </div>
                 </div>
@@ -57,7 +67,9 @@
                 cols="12"
                 class="pa-0 overflow-hidden"
               >
-                <div class="pt100percent image-cover position-relative product img_about2">
+                <div
+                  class="pt100percent image-cover position-relative product img_about2"
+                >
                   <div class="product__content">
                     <h4 class="text-white">
                       02.
@@ -73,7 +85,9 @@
                 cols="12"
                 class="pa-0 overflow-hidden"
               >
-                <div class="pt100percent image-cover position-relative product img_about3">
+                <div
+                  class="pt100percent image-cover position-relative product img_about3"
+                >
                   <div class="product__content">
                     <h4 class="text-white">
                       03.
@@ -148,33 +162,32 @@
   </div>
 </template>
 <script>
-
 export default {
-  data(){
-    return{};
+  data() {
+    return {};
   },
-  computed:{
-    icOne(){
+  computed: {
+    icOne() {
       const icOne = require("assets/images/ic-money.svg?raw");
       return icOne;
     },
-    icTwo(){
+    icTwo() {
       const icOne = require("assets/images/ic-recommended.svg?raw");
       return icOne;
     },
-    icThree(){
+    icThree() {
       const icOne = require("assets/images/ic-money.svg?raw");
       return icOne;
     },
-    icFour(){
+    icFour() {
       const icOne = require("assets/images/ic-handshake.svg?raw");
       return icOne;
     },
-    icFive(){
+    icFive() {
       const icOne = require("assets/images/ic-air.svg?raw");
       return icOne;
-    }
-  }
+    },
+  },
 };
 </script>
 <style scoped>
