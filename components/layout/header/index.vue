@@ -68,7 +68,7 @@ export default {
     },
     computed: {
         icPhone() {
-            const icPhone = require("~/assets/images/ic-phone.svg");
+            const icPhone = require("~/assets/images/ic-phone.svg?raw");
             return icPhone;
         }
     }
