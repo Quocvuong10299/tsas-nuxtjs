@@ -1,17 +1,13 @@
 <template>
   <div class="wrapper">
-    <div class="header__banner  mb70">
-      <div class="image-banner-top pt_35percent pl135 bg_1 position-relative">
-        <div class="ellipse">
-          <h2 class="max-w200">
-            Tin tức
-          </h2>
-        </div>
-      </div>
-    </div>
-    <div class="container mb70">
-      <div class="row mb30px">
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
+    <banner-news />
+    <v-container class="mb70">
+      <v-row class="mb100">
+        <v-col
+          lg="3"
+          cols="12"
+          class="pa-0 overflow-hidden d-flex mb50"
+        >
           <div class="mg-auto">
             <div class="w-banner-new news-banner-1 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -26,8 +22,12 @@
               </h5>
             </div>
           </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
+        </v-col>
+        <v-col
+          lg="3"
+          cols="12"
+          class="pa-0 overflow-hidden d-flex mb50"
+        >
           <div class="mg-auto">
             <div class="w-banner-new news-banner-2 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -42,8 +42,12 @@
               </h5>
             </div>
           </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
+        </v-col>
+        <v-col
+          lg="3"
+          cols="12"
+          class="pa-0 overflow-hidden d-flex mb50"
+        >
           <div class="mg-auto">
             <div class="w-banner-new news-banner-3 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -58,8 +62,12 @@
               </h5>
             </div>
           </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
+        </v-col>
+        <v-col
+          lg="3"
+          cols="12"
+          class="pa-0 overflow-hidden d-flex mb50"
+        >
           <div class="mg-auto">
             <div class="w-banner-new news-banner-4 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -74,8 +82,12 @@
               </h5>
             </div>
           </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
+        </v-col>
+        <v-col
+          lg="3"
+          cols="12"
+          class="pa-0 overflow-hidden d-flex mb50"
+        >
           <div class="mg-auto">
             <div class="w-banner-new news-banner-5 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -90,8 +102,12 @@
               </h5>
             </div>
           </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
+        </v-col>
+        <v-col
+          lg="3"
+          cols="12"
+          class="pa-0 overflow-hidden d-flex mb50"
+        >
           <div class="mg-auto">
             <div class="w-banner-new news-banner-6 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -106,8 +122,12 @@
               </h5>
             </div>
           </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
+        </v-col>
+        <v-col
+          lg="3"
+          cols="12"
+          class="pa-0 overflow-hidden d-flex mb50"
+        >
           <div class="mg-auto">
             <div class="w-banner-new news-banner-7 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -122,8 +142,12 @@
               </h5>
             </div>
           </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
+        </v-col>
+        <v-col
+          lg="3"
+          cols="12"
+          class="pa-0 overflow-hidden d-flex mb50"
+        >
           <div class="mg-auto">
             <div class="w-banner-new news-banner-8 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -138,8 +162,12 @@
               </h5>
             </div>
           </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
+        </v-col>
+        <v-col
+          lg="3"
+          cols="12"
+          class="pa-0 overflow-hidden d-flex mb50"
+        >
           <div class="mg-auto">
             <div class="w-banner-new news-banner-9 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -154,8 +182,12 @@
               </h5>
             </div>
           </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
+        </v-col>
+        <v-col
+          lg="3"
+          cols="12"
+          class="pa-0 overflow-hidden d-flex mb50"
+        >
           <div class="mg-auto">
             <div class="w-banner-new news-banner-10 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -170,8 +202,12 @@
               </h5>
             </div>
           </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
+        </v-col>
+        <v-col
+          lg="3"
+          cols="12"
+          class="pa-0 overflow-hidden d-flex mb50"
+        >
           <div class="mg-auto">
             <div class="w-banner-new news-banner-11 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -186,8 +222,12 @@
               </h5>
             </div>
           </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
+        </v-col>
+        <v-col
+          lg="3"
+          cols="12"
+          class="pa-0 overflow-hidden d-flex mb50"
+        >
           <div class="mg-auto">
             <div class="w-banner-new news-banner-12 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -202,8 +242,12 @@
               </h5>
             </div>
           </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
+        </v-col>
+        <v-col
+          lg="3"
+          cols="12"
+          class="pa-0 overflow-hidden d-flex pb50"
+        >
           <div class="mg-auto">
             <div class="w-banner-new news-banner-13 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -218,8 +262,12 @@
               </h5>
             </div>
           </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
+        </v-col>
+        <v-col
+          lg="3"
+          cols="12"
+          class="pa-0 overflow-hidden d-flex pb50"
+        >
           <div class="mg-auto">
             <div class="w-banner-new news-banner-14 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -234,8 +282,12 @@
               </h5>
             </div>
           </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
+        </v-col>
+        <v-col
+          lg="3"
+          cols="12"
+          class="pa-0 overflow-hidden d-flex pb50"
+        >
           <div class="mg-auto">
             <div class="w-banner-new news-banner-15 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -250,8 +302,12 @@
               </h5>
             </div>
           </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
+        </v-col>
+        <v-col
+          lg="3"
+          cols="12"
+          class="pa-0 overflow-hidden d-flex pb50"
+        >
           <div class="mg-auto">
             <div class="w-banner-new news-banner-16 image-cover position-relative mb15" />
             <div class="w-banner-new">
@@ -266,72 +322,23 @@
               </h5>
             </div>
           </div>
-        </div>
-      </div>
-      <!--      <div class='d-flex'>-->
-      <!--        <a-->
-      <!--          href="#"-->
-      <!--          class="btn btn-primary custom-responsive d-block text-center mg-auto w-number bg-color_5 border-gray"-->
-      <!--        >-->
-      <!--          <div-->
-      <!--            class="icon mb30px"-->
-      <!--            v-html="icOne"-->
-      <!--          />-->
-      <!--        </a>-->
-      <!--        <a-->
-      <!--          type="submit"-->
-      <!--          href="#"-->
-      <!--          class="btn btn-primary custom-responsive d-block text-center mg-auto w-number border-gray"-->
-      <!--        >-->
-      <!--          1-->
-      <!--        </a>-->
-      <!--        <a-->
-      <!--          href="#"-->
-      <!--          class="btn btn-primary custom-responsive d-block text-center mg-auto w-number border-gray"-->
-      <!--        >-->
-      <!--          1-->
-      <!--        </a>-->
-      <!--        <a-->
-      <!--          href="#"-->
-      <!--          class="btn btn-primary custom-responsive d-block text-center mg-auto w-number border-gray"-->
-      <!--        >-->
-      <!--          1-->
-      <!--        </a>-->
-      <!--        <a-->
-      <!--          href="#"-->
-      <!--          class="btn btn-primary custom-responsive d-block text-center mg-auto w-number border-gray"-->
-      <!--        >-->
-      <!--          1-->
-      <!--        </a>-->
-      <!--        <a-->
-      <!--          href="#"-->
-      <!--          class="btn btn-primary custom-responsive d-block text-center mg-auto w-number border-gray"-->
-      <!--        >-->
-      <!--          1-->
-      <!--        </a>-->
-      <!--        <a-->
-      <!--          href="#"-->
-      <!--          class="btn btn-primary custom-responsive d-block text-center mg-auto w-number border-gray"-->
-      <!--        >-->
-      <!--          1-->
-      <!--        </a>-->
-      <!--        <a-->
-      <!--          href="#"-->
-      <!--          class="btn btn-primary custom-responsive d-block text-center mg-auto w-number bg-color_5 border-gray"-->
-      <!--        >-->
-      <!--          <div-->
-      <!--            class="icon mb30px"-->
-      <!--            v-html="icTwo"-->
-      <!--          />-->
-      <!--        </a>-->
-      <!--      </div>-->
-    </div>
+        </v-col>
+      </v-row>
+      <pagination />
+    </v-container>
   </div>
 </template>
 <script>
+import bannerNews from "~/components/banner/bannerNews";
+import pagination from "~/components/ui/pagination";
 export default {
+  components:{
+    bannerNews,
+    pagination,
+  },
   data () {
-    return {};
+    return {
+    };
   },
   computed: {
     icOne(){
@@ -346,9 +353,6 @@ export default {
 };
 </script>
 <style scoped>
-.bg_1 {
-  background-image: url("~assets/images/bg_5.jpg");
-}
 .border-gray{
   border: 1px solid #989898 !important;
 }

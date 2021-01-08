@@ -1,14 +1,6 @@
 <template>
   <div class="wrapper">
-    <div class="header__banner mb70">
-      <div class="image-banner-top pt_35percent pl135 bg_1 position-relative">
-        <div class="ellipse">
-          <h2 class="max-w200">
-            Giới thiệu về chúng tôi
-          </h2>
-        </div>
-      </div>
-    </div>
+    <bannerAbout />
     <v-container class="mb70">
       <v-row>
         <v-col
@@ -162,7 +154,11 @@
   </div>
 </template>
 <script>
+import bannerAbout from "~/components/banner/bannerAbout";
 export default {
+  components:{
+    bannerAbout,
+  },
   data() {
     return {};
   },
@@ -191,10 +187,6 @@ export default {
 };
 </script>
 <style scoped>
-.bg_1 {
-  background-image: url("~assets/images/bg_2.jpg");
-}
-
 .img_about1 {
   background-image: url("~assets/images/about1.jpg");
 }

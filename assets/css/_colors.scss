@@ -19,12 +19,14 @@ $color_5:#989898;
 .bg-color_5{
   background-color: $color_5!important;
 }
-
+.v-pagination__navigation .v-icon{
+  color: white!important;
+}
 .text-white{
   color: white!important;
 }
 .text-red{
-  color: #A01E21;
+  color: #A01E21!important;
 }
 .text-color_5{
   color: $color_5!important;
