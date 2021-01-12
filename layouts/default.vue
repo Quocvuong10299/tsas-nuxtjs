@@ -6,7 +6,7 @@
         <nuxt />
       </v-main>
     </transition>
-    <Footer />
+    <Footer v-if="$route.path!='/'" />
   </v-app>
 </template>
 <script>
