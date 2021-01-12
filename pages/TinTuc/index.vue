@@ -11,255 +11,19 @@
     </div>
     <div class="container mb70">
       <div class="row mb30px">
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
+        <div
+          v-for="item in news"
+          :key="item.id"
+          class="d-flex col-lg-3 col-md-3 col-12 mb50"
+        >
           <div class="mg-auto">
             <div class="w-banner-new news-banner-1 image-cover position-relative mb15" />
             <div class="w-banner-new">
               <h4 class="font-weight-500 pb5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor ac
+                {{ item.title }}
               </h4>
               <h5 class="font-weight-300 text-color_5 pb10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum dictum mattis odio amet fusce.
-              </h5>
-              <h5 class="text-red">
-                John Eve • 01/11/2019
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
-          <div class="mg-auto">
-            <div class="w-banner-new news-banner-2 image-cover position-relative mb15" />
-            <div class="w-banner-new">
-              <h4 class="font-weight-500 pb5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor ac
-              </h4>
-              <h5 class="font-weight-300 text-color_5 pb10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum dictum mattis odio amet fusce.
-              </h5>
-              <h5 class="text-red">
-                John Eve • 01/11/2019
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
-          <div class="mg-auto">
-            <div class="w-banner-new news-banner-3 image-cover position-relative mb15" />
-            <div class="w-banner-new">
-              <h4 class="font-weight-500 pb5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor ac
-              </h4>
-              <h5 class="font-weight-300 text-color_5 pb10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum dictum mattis odio amet fusce.
-              </h5>
-              <h5 class="text-red">
-                John Eve • 01/11/2019
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
-          <div class="mg-auto">
-            <div class="w-banner-new news-banner-4 image-cover position-relative mb15" />
-            <div class="w-banner-new">
-              <h4 class="font-weight-500 pb5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor ac
-              </h4>
-              <h5 class="font-weight-300 text-color_5 pb10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum dictum mattis odio amet fusce.
-              </h5>
-              <h5 class="text-red">
-                John Eve • 01/11/2019
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
-          <div class="mg-auto">
-            <div class="w-banner-new news-banner-5 image-cover position-relative mb15" />
-            <div class="w-banner-new">
-              <h4 class="font-weight-500 pb5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor ac
-              </h4>
-              <h5 class="font-weight-300 text-color_5 pb10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum dictum mattis odio amet fusce.
-              </h5>
-              <h5 class="text-red">
-                John Eve • 01/11/2019
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
-          <div class="mg-auto">
-            <div class="w-banner-new news-banner-6 image-cover position-relative mb15" />
-            <div class="w-banner-new">
-              <h4 class="font-weight-500 pb5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor ac
-              </h4>
-              <h5 class="font-weight-300 text-color_5 pb10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum dictum mattis odio amet fusce.
-              </h5>
-              <h5 class="text-red">
-                John Eve • 01/11/2019
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
-          <div class="mg-auto">
-            <div class="w-banner-new news-banner-7 image-cover position-relative mb15" />
-            <div class="w-banner-new">
-              <h4 class="font-weight-500 pb5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor ac
-              </h4>
-              <h5 class="font-weight-300 text-color_5 pb10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum dictum mattis odio amet fusce.
-              </h5>
-              <h5 class="text-red">
-                John Eve • 01/11/2019
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
-          <div class="mg-auto">
-            <div class="w-banner-new news-banner-8 image-cover position-relative mb15" />
-            <div class="w-banner-new">
-              <h4 class="font-weight-500 pb5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor ac
-              </h4>
-              <h5 class="font-weight-300 text-color_5 pb10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum dictum mattis odio amet fusce.
-              </h5>
-              <h5 class="text-red">
-                John Eve • 01/11/2019
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
-          <div class="mg-auto">
-            <div class="w-banner-new news-banner-9 image-cover position-relative mb15" />
-            <div class="w-banner-new">
-              <h4 class="font-weight-500 pb5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor ac
-              </h4>
-              <h5 class="font-weight-300 text-color_5 pb10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum dictum mattis odio amet fusce.
-              </h5>
-              <h5 class="text-red">
-                John Eve • 01/11/2019
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
-          <div class="mg-auto">
-            <div class="w-banner-new news-banner-10 image-cover position-relative mb15" />
-            <div class="w-banner-new">
-              <h4 class="font-weight-500 pb5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor ac
-              </h4>
-              <h5 class="font-weight-300 text-color_5 pb10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum dictum mattis odio amet fusce.
-              </h5>
-              <h5 class="text-red">
-                John Eve • 01/11/2019
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
-          <div class="mg-auto">
-            <div class="w-banner-new news-banner-11 image-cover position-relative mb15" />
-            <div class="w-banner-new">
-              <h4 class="font-weight-500 pb5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor ac
-              </h4>
-              <h5 class="font-weight-300 text-color_5 pb10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum dictum mattis odio amet fusce.
-              </h5>
-              <h5 class="text-red">
-                John Eve • 01/11/2019
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
-          <div class="mg-auto">
-            <div class="w-banner-new news-banner-12 image-cover position-relative mb15" />
-            <div class="w-banner-new">
-              <h4 class="font-weight-500 pb5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor ac
-              </h4>
-              <h5 class="font-weight-300 text-color_5 pb10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum dictum mattis odio amet fusce.
-              </h5>
-              <h5 class="text-red">
-                John Eve • 01/11/2019
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
-          <div class="mg-auto">
-            <div class="w-banner-new news-banner-13 image-cover position-relative mb15" />
-            <div class="w-banner-new">
-              <h4 class="font-weight-500 pb5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor ac
-              </h4>
-              <h5 class="font-weight-300 text-color_5 pb10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum dictum mattis odio amet fusce.
-              </h5>
-              <h5 class="text-red">
-                John Eve • 01/11/2019
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
-          <div class="mg-auto">
-            <div class="w-banner-new news-banner-14 image-cover position-relative mb15" />
-            <div class="w-banner-new">
-              <h4 class="font-weight-500 pb5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor ac
-              </h4>
-              <h5 class="font-weight-300 text-color_5 pb10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum dictum mattis odio amet fusce.
-              </h5>
-              <h5 class="text-red">
-                John Eve • 01/11/2019
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
-          <div class="mg-auto">
-            <div class="w-banner-new news-banner-15 image-cover position-relative mb15" />
-            <div class="w-banner-new">
-              <h4 class="font-weight-500 pb5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor ac
-              </h4>
-              <h5 class="font-weight-300 text-color_5 pb10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum dictum mattis odio amet fusce.
-              </h5>
-              <h5 class="text-red">
-                John Eve • 01/11/2019
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-3 col-12 mb50">
-          <div class="mg-auto">
-            <div class="w-banner-new news-banner-16 image-cover position-relative mb15" />
-            <div class="w-banner-new">
-              <h4 class="font-weight-500 pb5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit tortor ac
-              </h4>
-              <h5 class="font-weight-300 text-color_5 pb10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum dictum mattis odio amet fusce.
+                {{ item.body }}
               </h5>
               <h5 class="text-red">
                 John Eve • 01/11/2019
@@ -331,7 +95,9 @@
 <script>
 export default {
   data () {
-    return {};
+    return {
+      news:[]
+    };
   },
   computed: {
     icOne(){
@@ -342,6 +108,15 @@ export default {
       const icOne = require("assets/images/ic-next.svg?raw");
       return icOne;
     },
+  },
+  mounted () {
+    this.fetchNews();
+  },
+  methods:{
+    async fetchNews() {
+      const news = await this.$axios.$get("https://jsonplaceholder.typicode.com/posts");
+      this.news = news;
+    }
   }
 };
 </script>
